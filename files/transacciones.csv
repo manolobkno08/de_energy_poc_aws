@@ -1,0 +1,6 @@
+id_transaccion,tipo_transaccion,id_cliente,id_proveedor,cantidad_comprada,precio,tipo_energia
+TRX001,venta,CLI001,,100,150.5,eólica
+TRX002,compra,,PRV001,500,120.0,eólica
+TRX003,venta,CLI002,,,135.2,hidroeléctrica
+TRX004,compra,,PRV002,400,,hidroeléctrica
+TRX005,compra,,PRV003,300,110.0,nuclear
