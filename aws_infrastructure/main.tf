@@ -22,3 +22,21 @@ module "s3_datalake" {
 module "lambda_landingzone" {
   source = "./modules/lambda_landingzone"
 }
+
+module "glue_database" {
+  source = "./modules/glue_database"
+  raw_database_name     = "energy_datalake_raw"
+  staging_database_name = "energy_datalake_staging"
+}
+
+module "glue_crawler_raw" {
+  source             = "./modules/glue_crawler_raw"
+  database_name      = "energy_datalake_raw"
+  raw_bucket_name    = "demo-useast2-dev-dl-raw-bucket"
+}
+
+module "glue_crawler_staging" {
+  source             = "./modules/glue_crawler_staging"
+  database_name      = "energy_datalake_staging"
+  staging_bucket_name = "demo-useast2-dev-dl-staging-bucket"
+}
