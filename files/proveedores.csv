@@ -1,0 +1,6 @@
+id_proveedor,nombre_proveedor,tipo_energia
+PRV001,EnerGreen,eólica
+PRV002,HydroCol,hidroeléctrica
+PRV003,Atomix,nuclear
+PRV004,SolucionesX,
+PRV005,,eólica

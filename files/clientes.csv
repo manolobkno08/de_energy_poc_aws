@@ -1,0 +1,5 @@
+id_cliente,tipo_identificacion,identificacion,nombre,ciudad
+CLI001,CC,1010101010,Juan Perez,Bogotá
+CLI002,NIT,900123456,Comercial Electrico,Medellín
+CLI003,CC,,Ana Torres,Cali
+CLI004,CC,1029384756,,Barranquilla
